@@ -1,0 +1,171 @@
+*
+{
+padding:0;
+margin:0;
+}
+.container{
+    display:flex;
+    flex-flow:row wrap;
+    flex:1 1 12px;
+}
+body{
+    background-color:#BDD1DD;
+    background-position: center;
+    background-size:cover;
+
+}
+nav{
+    width:110%;
+    height:80px;
+    background-color:black;
+    line-height:89px;
+
+}
+nav ul li{
+    list-style-type:none;
+    display:inline-block;
+    transition:0.9s all;
+    justify-items: cen1ter;
+}
+
+nav ul li a{
+    color:goldenrod;
+    font-weight:bold;
+    font-size:18px;
+    font-family:sans-serif;
+    padding:40px;
+    text-decoration: None;
+}
+nav ul{
+    float:right;
+    margin-right: 20px;
+}
+button{
+    cursor:pointer;
+    background-color:goldenrod;
+    width:80px;
+    height:30px;
+    border-radius:6px;
+    text-decoration-line: none;
+}
+button:hover{
+    background-color:#BDD1DD;
+}
+.my-hover:hover{
+    background-color:#BDBDBD;
+    height: 80px; 
+}
+.infos{
+    margin-top:55px;
+    display:inline-block;
+    position: relative;
+    cursor: pointer;
+    border:0px solid white;
+    right:555px;
+}
+.dropdown{
+    display:None;
+    position:absolute;
+    background-color:goldenrod;
+    min-width:200px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index:1;
+    height:fit-content;
+}
+.dropdown a{
+    display:block;
+    color:white;
+    padding:12px 16px;
+    text-decoration: none;
+    display:block;
+}
+.dropdown a:hover{
+    background-color: #000;
+    color:#fff;
+}
+.infos:hover .dropdown{
+    display:block;
+}
+.infos:hover .menu{
+    background-color: transparent;
+}
+.menu{
+    width:200px;
+    height:50px;
+    color:black;
+    font-size:16px;
+    font-style:italic;
+    font-weight:bold;
+    background-color:goldenrod;
+}
+.myforms{
+    display:inline-block;
+    justify-content: center;
+    align-items:center;
+    position:relative;
+    left:290px;
+    top:50px;
+}
+.myInputs{
+float:left;
+padding:0;
+height:35px;
+background-color:goldenrod;
+font-size:18px;
+width:180px;
+color:black;
+}
+.details{
+    float:left;
+    position:relative;
+    left:480px;
+    top:100px;
+}
+.mydetails{
+    width:400px;
+    height:40px;
+    padding:0;
+    height:35px;
+    background-color:goldenrod;
+    font-size:18px;
+    
+}
+.select{
+    width:150px;
+    height:40px;
+    float:right;
+}
+option{
+    font-style:bold;
+    font-size:18px;
+}
+a{
+    text-decoration: none;
+    color:white;
+    font-weight:bold;
+    border:none;
+}
+.footer{
+    position:relative;
+    right:0px;
+    top:950px;
+    width:100%;
+    height:70px;
+    background-color: goldenrod;
+    font-size:20px;
+    color:black;
+}
+.company{
+    position:relative;
+    left:1100px;
+    bottom:0px;
+    color:black;
+    font-size:18px;
+    font-weight:bold;
+    padding:5px;
+}
+.companyy{
+    position:relative;
+    left:875px;
+    bottom:24px;
+}

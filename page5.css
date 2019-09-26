@@ -1,0 +1,164 @@
+*
+{
+padding:0;
+margin:0;
+}
+body{
+    background-color:#BDD1DD;
+    background-position: center;
+    background-size:cover;
+
+}
+nav{
+    width:100%;
+    height:80px;
+    background-color:#000;
+    line-height:89px;
+
+}
+nav ul li{
+    list-style-type:none;
+    display:inline-block;
+    transition:0.9s all;
+    justify-items: center;
+}
+
+nav ul li a{
+    color:goldenrod;
+    font-weight:bold;
+    font-size:18px;
+    font-family:sans-serif;
+    padding:80px;
+    text-decoration: None;
+}
+nav ul{
+    float:right;
+    margin-right: 30px;
+}
+button{
+    cursor:pointer;
+    background-color:white;
+    width:80px;
+    height:30px;
+    border-radius:6px;
+    text-decoration-line: none;
+}
+button:hover{
+    background-color:#2DC;
+}
+.my-hover:hover{
+    background-color:#BDBDBD;
+    height: 80px; 
+}
+.infos{
+    margin-top:120px;
+    display:inline-block;
+    position: relative;
+    cursor: pointer;
+    border:0px solid white;
+}
+.dropdown{
+    display:None;
+    position:absolute;
+    background-color:white;
+    min-width:200px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index:1;
+    height:fit-content;
+}
+.dropdown a{
+    display:block;
+    color:white;
+    padding:12px 16px;
+    text-decoration: none;
+    display:block;
+}
+.dropdown a:hover{
+    background-color: #000;
+    color:#fff;
+}
+.infos:hover .dropdown{
+    display:block;
+}
+.infos:hover .menu{
+    background-color: transparent;
+}
+.menu{
+    width:200px;
+    height:50px;
+    color:black;
+    font-size:16px;
+    font-style:italic;
+    font-weight:bold;
+    background-color:goldenrod;
+    border:none;
+}
+ .profile{
+    float:left;
+    position:absolute;
+    right:300px;
+    bottom:160px;
+    border-radius:50%;
+
+  }
+  #uploadButton{
+      width:300px;
+      position:absolute;
+      bottom:120px;
+      right:220px;
+      border-radius:40px;
+      background-color: goldenrod;
+      border:none;
+  }
+  a{
+      text-decoration: none;
+      font-size:18px;
+      color:black;
+  }
+  .myforms{
+      position:absolute;
+      right:520px;
+      bottom:153px;
+      background-color:transparent;
+  }
+
+  .myInputs{
+      height:18px;
+      width:296px;
+      display: block;
+      border:2px solid black;
+      font-size:18px;
+      font-weight:bolder;
+      background-color: transparent;
+      border:none;
+      border-bottom:2px solid black;
+    
+  }
+  #submit{
+      position:absolute;
+      left:50px;
+      bottom:-40px;
+      width:200px;
+      color:black;
+      background-color: goldenrod;
+      margin-bottom:2px;
+  }
+  .buttonAdd{
+      position:relative;
+      display:block;
+      margin-left:800px;
+      width:200px;
+      margin-bottom: 150px;
+      background-color:goldenrod;
+      border:none;
+      color:gainsboro;
+      font-weight:bold;
+  }
+  .buttonAdd:hover{
+      background-color: transparent;
+  }
+  label{
+      font-size:20px;
+      font-weight:bolder;
+  }
+  media sc

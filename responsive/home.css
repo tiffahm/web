@@ -1,0 +1,45 @@
+.main_wrapper{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    min-height: 100vh
+}
+
+.main_wrapper_drawer{
+    width: 200px;
+    background-color: #f5f5f5;
+}
+
+.main_wrapper_drawer:ul{
+    position: sticky;
+    top: 0;
+    padding: 8px;
+}
+
+.main_wrapper_content{
+    padding: 16px;
+    flex-grow: 1;
+    display: flex;
+    flex-direction: column;
+}
+
+.main_wrapper_content_some_pics{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.main_pic{
+    width: 150px;
+    height: 150px;
+    background: url('../cars.jpg');
+    background-size: cover;
+    border-radius: 5px;
+    margin: 5px;
+}
+
+@media (max-width: 800px){
+    .main_wrapper_drawer{
+        display: none!important;
+    }
+}
